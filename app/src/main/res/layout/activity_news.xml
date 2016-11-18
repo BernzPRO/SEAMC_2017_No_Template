@@ -10,4 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.seongbincho.seamc_2017_no_template.news">
 
+    <TextView
+        android:text="News"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView5"
+        tools:ignore="HardcodedText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 </RelativeLayout>

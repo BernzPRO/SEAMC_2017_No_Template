@@ -24,4 +24,5 @@ public class socialmedia extends AppCompatActivity {
         webView.loadUrl(url);
 
     }
+
 }

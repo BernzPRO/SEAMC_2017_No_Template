@@ -13,7 +13,7 @@
         <activity
             android:name=".SplashScreenActivity"
             android:label=""
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,7 +37,8 @@
         <activity android:name=".emergency" />
         <activity android:name=".leaderboard" />
         <activity android:name=".gallery" />
-        <activity android:name=".socialmedia" />
+        <activity android:name=".socialmedia"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
