@@ -19,4 +19,5 @@
         android:id="@+id/textView5"
         tools:ignore="HardcodedText"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
 </RelativeLayout>

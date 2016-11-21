@@ -37,8 +37,9 @@
         <activity android:name=".emergency" />
         <activity android:name=".leaderboard" />
         <activity android:name=".gallery" />
-        <activity android:name=".socialmedia"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".socialmedia"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
