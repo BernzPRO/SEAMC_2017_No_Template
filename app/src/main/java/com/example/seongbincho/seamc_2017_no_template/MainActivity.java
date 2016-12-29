@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intentLoadActivity = new Intent(MainActivity.this,schedule.class);
+                Intent intentLoadActivity = new Intent(MainActivity.this,activity_schedule_listview.class);
                 startActivity(intentLoadActivity);
             }
         });

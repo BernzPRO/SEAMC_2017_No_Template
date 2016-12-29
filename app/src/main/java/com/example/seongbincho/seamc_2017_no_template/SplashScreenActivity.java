@@ -4,12 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import com.example.seongbincho.seamc_2017_no_template.MainActivity;
+import com.example.seongbincho.seamc_2017_no_template.R;
 
 /**
- * Created by seongbincho on 11/17/16.
+ * Created by Bernie on 11/2/16.
  */
 
-public class SplashScreenActivity extends AppCompatActivity {
+public class SplashScreenActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -19,7 +21,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    sleep(3500);
+                    sleep(3000);
                     Intent startMainActivity =  new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(startMainActivity);
                     finish();
@@ -30,6 +32,5 @@ public class SplashScreenActivity extends AppCompatActivity {
             }
         };
         myThread.start();
-
     }
 }
