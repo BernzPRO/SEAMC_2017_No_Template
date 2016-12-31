@@ -29,7 +29,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity_schedule_listview" />
+        <activity android:name=".scheule_listview" />
+        <activity android:name=".day2_listview"/>
         <activity android:name=".map" />
         <activity android:name=".news" />
         <activity android:name=".contact_info" />

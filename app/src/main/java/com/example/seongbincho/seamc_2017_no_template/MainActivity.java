@@ -5,16 +5,8 @@ import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
-import android.webkit.WebView;
 import android.widget.ImageButton;
-
-
-
-
-
-import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         myImageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intentLoadActivity = new Intent(MainActivity.this,activity_schedule_listview.class);
+                Intent intentLoadActivity = new Intent(MainActivity.this,scheule_listview.class);
                 startActivity(intentLoadActivity);
             }
         });

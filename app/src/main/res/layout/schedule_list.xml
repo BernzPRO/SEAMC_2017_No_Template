@@ -2,36 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:paddingBottom="5dp"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    android:paddingTop="5dp">
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:background="#ffffff">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/activity_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Activity"
-        android:textColor="#4bb6d6"
-        android:textSize="20dp" />
-
+        android:textSize="20dp"
+        android:textColor="#00a7f5"/>
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/activity_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Time"
-        android:textColor="#b30000"
-        android:textSize="18dp" />
-
+        android:textSize="18dp"
+        android:textColor="#f92a3f"/>
     <TextView
-        android:id="@+id/activity_room"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Room"
+        android:id="@+id/activity_venue"
+        android:text="Venue"
         android:textSize="16dp"
-        android:textStyle="italic" />
-
-
+        android:textColor="#000"/>
 
 </LinearLayout>

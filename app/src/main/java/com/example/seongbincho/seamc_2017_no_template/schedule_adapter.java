@@ -9,15 +9,16 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by seongbincho on 12/30/16.
+ * Created by seongbincho on 12/31/16.
  */
 
-public class schedule_adapter extends BaseAdapter{
-
+public class schedule_adapter extends BaseAdapter {
     private Context mContext;
-    private List<Schedule_list> mScheduleList;
+    private List<schedulelis> mScheduleList;
 
-    public schedule_adapter(Context mContext, List<Schedule_list> mProductList) {
+    //Constructor
+
+    public schedule_adapter(Context mContext, List<schedulelis> mScheduleList) {
         this.mContext = mContext;
         this.mScheduleList = mScheduleList;
     }
@@ -34,19 +35,23 @@ public class schedule_adapter extends BaseAdapter{
 
     @Override
     public long getItemId(int position) {
-        return mScheduleList.get(position).getId();
+        return position;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-
         View v = View.inflate(mContext, R.layout.schedule_list, null);
-        TextView activityname = (TextView)v.findViewById(R.id.activity_name);
-        TextView activitytime = (TextView)v.findViewById(R.id.activity_time);
-        TextView activityroom = (TextView)v.findViewById(R.id.activity_room);
-        activityname.setText(mScheduleList.get(position).getName());
-        activitytime.setText(mScheduleList.get(position).getTime());
-        activitytime.setText(mScheduleList.get(position).getRoom());
+        TextView activityName = (TextView)v.findViewById(R.id.activity_name);
+        TextView activityTime = (TextView)v.findViewById(R.id.activity_time);
+        TextView activityVenue = (TextView)v.findViewById(R.id.activity_venue);
+        //Set text for TextView
+        activityName.setText(mScheduleList.get(position).getActivity());
+        activityTime.setText(mScheduleList.get(position).getTime());
+        activityVenue.setText(mScheduleList.get(position).getVenue());
+
+        //Save product id to tag
+        v.setTag(mScheduleList.get(position).getId());
+
         return v;
     }
 }
