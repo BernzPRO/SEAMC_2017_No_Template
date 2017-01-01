@@ -25,9 +25,8 @@ public class day4_listview extends Activity {
         mScheduleList = new ArrayList<>();
         //Add sample data for list
         //We can get data from DB, webservice here
-        mScheduleList.add(new schedulelis(1, "Opening Ceremony", "18:00~19:00", "home"));
-        mScheduleList.add(new schedulelis(2, "IceBreaker", "19:00~21:30", "Theater"));
-        mScheduleList.add(new schedulelis(3, "All teachers planning meeting", "21:30~", "Room"));
+        mScheduleList.add(new schedulelis(1, "Breakfast", "06.00", "Atria Hotel"));
+        mScheduleList.add(new schedulelis(2, "Departure", "-", "-"));
 
 
 

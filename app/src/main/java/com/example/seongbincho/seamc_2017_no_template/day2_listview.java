@@ -25,9 +25,26 @@ public class day2_listview extends Activity {
         mScheduleList = new ArrayList<>();
         //Add sample data for list
         //We can get data from DB, webservice here
-        mScheduleList.add(new schedulelis(1, "Opening Ceremony", "18:00~19:00", "home"));
-        mScheduleList.add(new schedulelis(2, "IceBreaker", "19:00~21:30", "Theater"));
-        mScheduleList.add(new schedulelis(3, "All teachers planning meeting", "21:30~", "Room"));
+        mScheduleList.add(new schedulelis(1, "Breakfast", "06.30-07.45", "Atria Hotel"));
+        mScheduleList.add(new schedulelis(2, "Bus from Hotel Atria to BSJ", "07.45-08.30", "Bus"));
+        mScheduleList.add(new schedulelis(3, "Individual Round", "08.30-10.00", "-"));
+        mScheduleList.add(new schedulelis(4, "Quick Break", "10.00-10.15", "-"));
+        mScheduleList.add(new schedulelis(5, "Lecture", "10.15-11.15", "-"));
+        mScheduleList.add(new schedulelis(6, "PassBack Round", "11.30-12.30", "-"));
+        mScheduleList.add(new schedulelis(7, "Lunch", "12.30-13.30", "Cafeteria"));
+        mScheduleList.add(new schedulelis(8, "Outdoor/Trail/Etc Adventure", "13.30-15.30", "-"));
+        mScheduleList.add(new schedulelis(9, "Activities/Games Round", "15.45-17.00", "-"));
+        mScheduleList.add(new schedulelis(10, "Dinner", "17.00-18.00", "-"));
+        mScheduleList.add(new schedulelis(11, "Trail Adventure Completion Deadline", "19.00-20.00", "-"));
+        mScheduleList.add(new schedulelis(12, "Bus to accomodation", "20.00", "Bus"));
+
+
+
+
+
+
+
+
 
 
 
