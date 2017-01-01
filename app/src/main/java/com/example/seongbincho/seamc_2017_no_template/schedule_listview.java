@@ -11,7 +11,7 @@ import java.util.List;
  * Created by seongbincho on 12/31/16.
  */
 
-public class scheule_listview extends Activity {
+public class schedule_listview extends Activity {
     private ListView lvSchedule;
     private schedule_adapter adapter;
     private List<schedulelis> mScheduleList;
